@@ -2,6 +2,7 @@ from flask_script import Manager
 from flask_migrate import Migrate,MigrateCommand
 from FlaskDemo import app
 from exts import db
+from models import User
 
 
 # 使用migrate绑定db和app
