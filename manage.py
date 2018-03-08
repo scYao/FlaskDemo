@@ -3,7 +3,8 @@ from flask_migrate import Migrate,MigrateCommand
 from FlaskDemo import app
 from exts import db
 from models import User
-
+from models import Question
+from models import Answer
 
 # 使用migrate绑定db和app
 migrate = Migrate(app=app,db=db)
